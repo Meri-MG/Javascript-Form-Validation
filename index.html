@@ -10,10 +10,39 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="https://svgshare.com/i/_go.svg" alt="logo">
+            </div>
+            <div class="image"></div>
+            <div class="text">
+                Start for free & get <br/>
+                attractive offers today !
+            </div>
+        </div>
         <form action="" id="form">
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Already Have an Account? <br/>
+                    <span>Sign In</span>
+                </div>
+                <div class="btn">
+                    <div class=btn-1>
+                        <img src="https://img.icons8.com/color/30/000000/google-logo.png" alt="google-icon"/>
+                        Sign Up
+                    </div>
+                    <div class=btn-2>
+                        <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png" alt="facebook-icon" />   
+                        Sign Up
+                    </div>
+                </div>
+                <div class="or">Or</div>
+            </div>
             <div class="title">Get Started</div>
             <div>
                 <label for="username">User Name</label>
@@ -34,7 +63,7 @@
             <div>
                 <label for="password">Password</label>
                 <i class="fas fa-lock"></i>
-                <input type="password" name="password" id="passwordemail" placeholder="Enter your password">
+                <input type="password" name="password" id="password" placeholder="Enter your password">
                 <i class="fas fa-exclamation-circle failure-icon"></i>
                 <i class="far fa-check-circle success-icon"></i>
                 <div class="error"></div>
@@ -42,6 +71,6 @@
             <button type="submit" id="btn">Submit</button>
         </form>
     </div>
-    
+    <script src="main.js"></script>
 </body>
 </html>
